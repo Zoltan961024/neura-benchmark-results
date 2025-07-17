@@ -1,5 +1,3 @@
-# neura-benchmark-results
-NEURA AI rendszer hivatalos benchmark tesztjei – 2025 július
 # NEURA Hivatalos Benchmark Eredmények
 Dátum: 2025-07-17
 

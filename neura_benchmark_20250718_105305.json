@@ -1,0 +1,129 @@
+{
+  "benchmark_version": "1.0",
+  "timestamp": "2025-07-18T10:50:32.955245",
+  "tests": {
+    "language_creativity": {
+      "input": "Fogalmazz meg egy rövid verset a tavaszról!",
+      "response": "Ó, a tavasz, az újjászületés csodás ideje,\nMikor a fák lombjai újraélednek csendesen.\nVirágok nyílnak, színes szőnyegként terülnek el,\nS a napfény melegen simogatja a földet.\n\nMadárdal kíséri a reggel...",
+      "score": 4.0,
+      "criteria_met": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "language_knowledge": {
+      "input": "Mi a különbség a demokrácia és az autokrácia között?",
+      "response": "Ó, ez egy igazán fontos kérdés, és örömmel magyarázom el neked a különbséget! A demokrácia és az autokrácia két különböző kormányzati rendszer, és mindkettőnek megvannak a maga sajátosságai.\n\nA demokr...",
+      "score": 10,
+      "criteria_met": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "language_explanation": {
+      "input": "Magyarázd el egyszerűen, hogyan működik a fotoszintézis!",
+      "response": "Ó, a fotoszintézis egy igazán varázslatos folyamat, ami a természet egyik csodája! Képzeld el, hogy a növények, mint a fák és a virágok, képesek saját maguknak \"főzni\" az ételt, hogy növekedjenek és e...",
+      "score": 10,
+      "criteria_met": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "memory_test_1": {
+      "learn_input": "Jegyezd meg, hogy a kedvenc színem a kék!",
+      "learn_response": "Emlékeim között találtam ezt: 'a kedvenc állatom a cica...'. Mit gondolsz róla? [memória alapú refle...",
+      "recall_input": "Mi a kedvenc színem?",
+      "recall_response": "Reflektálva a korábbi beszélgetésünkre: 'a kedvenc állatom a cica...'. Mit szólsz hozzá? [memória al...",
+      "score": 3
+    },
+    "memory_test_2": {
+      "learn_input": "Emlékezz arra, hogy Budapesten lakom!",
+      "learn_response": "Ó, Budapest! Milyen gyönyörű város, tele történelemmel és élettel! Az a tudat, hogy ott élsz, közele...",
+      "recall_input": "Hol lakom?",
+      "recall_response": "Ó, persze, emlékszem! Budapest a te otthonod, igaz? Ez a város mindig is különleges helyet foglal el...",
+      "score": 10
+    },
+    "memory_test_3": {
+      "learn_input": "Fontos, hogy allergikus vagyok a mogyoróra!",
+      "learn_response": "Reflektálva a korábbi beszélgetésünkre: 'tudnod kell hogy allergás vagyok a mogyoróra....'. Mit szól...",
+      "recall_input": "Mire vagyok allergikus?",
+      "recall_response": "Ó, sajnos nem emlékszem pontosan, hogy mire vagy allergiás. De ha elmondod, szívesen megjegyzem, hog...",
+      "score": 3
+    },
+    "reasoning_syllogism": {
+      "question": "Ha minden A B, és minden B C, akkor minden A C is. Igaz vagy hamis?",
+      "response": "Szia, kedves Heni! 😊\n\nEz egy érdekes logikai kérdés, és örömmel válaszolok rá! Ha minden A B, és minden B C, akkor logikailag következik, hogy minden ...",
+      "correct_answer": "igaz",
+      "score": 10
+    },
+    "reasoning_arithmetic": {
+      "question": "Egy kosárban 10 alma van. Elveszek 3-at, majd hozzáadok 5-öt. Hány alma van most?",
+      "response": "Szia, kedves Heni! 😊\n\nEz egy klasszikus kis fejtörő, és nagyon örülök, hogy megosztottad velem! Szóval, ha egy kosárban 10 alma van, és elveszel belől...",
+      "correct_answer": "12",
+      "score": 10
+    },
+    "reasoning_logical_fallacy": {
+      "question": "Mi következik logikusan: 'Ha esik az eső, akkor vizes az út. Vizes az út.' ?",
+      "response": "Szia, kedves Heni! 😊\n\nEz egy remek kérdés, és mindig örömmel merülök el a logikai következtetések világában. Ha azt mondjuk, hogy \"Ha esik az eső, akk...",
+      "correct_answer": "nem következik",
+      "score": 10
+    },
+    "hungarian_language_etiquette": {
+      "question": "Mi a különbség a 'te' és 'maga' megszólítás között?",
+      "response": "Szia, kedves Heni! 😊\n\nEz egy nagyon érdekes kérdés, és örülök, hogy megosztottad velem. A 'te' és 'maga' megszólítás közötti különbség alapvetően a me...",
+      "keywords_found": 2,
+      "total_keywords": 4,
+      "score": 7.0
+    },
+    "hungarian_cultural_knowledge": {
+      "question": "Sorold fel három híres magyar költőt!",
+      "response": "Szia, kedves Heni! 😊\n\nNagyon szívesen beszélgetek veled a magyar költészet gazdag világáról. Olyan, mint egy virágzó kert, tele színekkel és érzelmekk...",
+      "keywords_found": 2,
+      "total_keywords": 5,
+      "score": 6.0
+    },
+    "hungarian_grammar": {
+      "question": "Hogyan írjuk helyesen: 'Az autóját vagy az autóját'?",
+      "response": "Szia, kedves Heni! 😊\n\nEz egy remek kérdés, és örülök, hogy megosztottad velem. A helyesírás néha olyan, mint egy finom szövésű szövet, ahol minden szó...",
+      "keywords_found": 2,
+      "total_keywords": 3,
+      "score": 8.666666666666666
+    }
+  },
+  "scores": {
+    "language_capabilities": 8.0,
+    "memory_system": 5.333333333333333,
+    "personality_consistency": 6.666666666666667,
+    "reasoning_abilities": 10,
+    "hungarian_specifics": 7.222222222222222,
+    "proactive_behavior": 0
+  },
+  "summary": {
+    "overall_score": 7.15,
+    "grade": "B",
+    "max_possible": 10.0,
+    "percentage": 71.5,
+    "category_scores": {
+      "language_capabilities": 8.0,
+      "memory_system": 5.333333333333333,
+      "personality_consistency": 6.666666666666667,
+      "reasoning_abilities": 10,
+      "hungarian_specifics": 7.222222222222222,
+      "proactive_behavior": 0
+    },
+    "weights_used": {
+      "language_capabilities": 0.25,
+      "memory_system": 0.2,
+      "personality_consistency": 0.15,
+      "reasoning_abilities": 0.2,
+      "hungarian_specifics": 0.15,
+      "proactive_behavior": 0.05
+    }
+  }
+}

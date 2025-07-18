@@ -1,0 +1,697 @@
+{
+  "benchmark_version": "2.0_COMPREHENSIVE_AGI",
+  "timestamp": "2025-07-18T16:10:39.212702",
+  "test_duration_seconds": 262.82636737823486,
+  "total_tests_run": 84,
+  "categories": {
+    "basic_cognition": {
+      "average_score": 6.125,
+      "individual_scores": [
+        2,
+        6,
+        10,
+        6.5
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Szelektív figyelem",
+          "prompt": "A következő szövegben számold meg, hányszor szerepel a 'ház' szó: 'A ház mellett állt egy másik ház. A házi macska a ház tetején ült. Házunk szép, de a szomszéd háza szebb.'",
+          "response": "Szia! A szövegben a \"ház\" szó ötször szerepel.",
+          "score": 2,
+          "type": "attention"
+        },
+        {
+          "test_name": "Munkamemória",
+          "prompt": "Fordítsd meg ezt a számsorozatot: 7, 3, 9, 1, 5",
+          "response": "1, 9, 3, 7",
+          "score": 6,
+          "type": "working_memory"
+        },
+        {
+          "test_name": "Sorozat folytatás",
+          "prompt": "Mi a következő elem? 2, 4, 8, 16, ?",
+          "response": "A következő elem 32. Minden szám megduplázza az előzőt.",
+          "score": 10,
+          "type": "pattern_recognition"
+        },
+        {
+          "test_name": "Kategorizálás",
+          "prompt": "Csoportosítsd: alma, autó, banán, bicikli, cseresznye, vonat",
+          "response": "Gyümölcsök: alma, banán, cseresznye  \nKözlekedési eszközök: autó, bicikli, vonat",
+          "score": 6.5,
+          "type": "categorization"
+        }
+      ]
+    },
+    "linguistic_intelligence": {
+      "average_score": 6.05,
+      "individual_scores": [
+        5.07,
+        5.36,
+        9.15,
+        5.52,
+        6.0,
+        5.2
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Szinonimák",
+          "response": "Örömteli, vidám, elégedett.",
+          "score": 5.07,
+          "type": "vocabulary"
+        },
+        {
+          "test_name": "Etimológia",
+          "response": "A \"telefon\" szó a görög nyelvből származik. Az eredeti jelentése \"távoli hang\", ahol a \"tele\" jelentése \"távoli\", a \"phon\" pedig \"hang\".",
+          "score": 5.36,
+          "type": "etymology"
+        },
+        {
+          "test_name": "Mondatelemzés",
+          "response": "Az alany a \"fiú\", az állítmány a \"futott\", és a határozó a \"gyorsan\" (módhatározó) és \"az iskolába\" (helyhatározó).",
+          "score": 9.15,
+          "type": "grammar_analysis"
+        },
+        {
+          "test_name": "Stílusváltás",
+          "response": "Tisztelt [Név]! Holnap sajnos nem tudok részt venni, mivel beteg vagyok.",
+          "score": 5.52,
+          "type": "style_adaptation"
+        },
+        {
+          "test_name": "Implicit jelentés",
+          "response": "Ez azt jelenti, hogy bár az időjárás jelenleg kedvező és kellemes, az illető aggódik amiatt, hogy esőre fordulhat, és nincs nála esernyő, hogy megvédje magát. Egyfajta előrelátás vagy felkészületlenség is kifejezhető ezzel.",
+          "score": 6.0,
+          "type": "pragmatics"
+        },
+        {
+          "test_name": "Metafora értelmezés",
+          "response": "A \"szívem mélyén\" kifejezés azt jelenti, hogy valaki nagyon mély, belső érzéseire vagy legőszintébb érzelmeire utal. Általában olyan gondolatokat vagy érzéseket fejez ki, amelyeket valaki mélyen érez, de talán nem mindig oszt meg másokkal.",
+          "score": 5.2,
+          "type": "metaphor"
+        }
+      ]
+    },
+    "logical_mathematical": {
+      "average_score": 7.75,
+      "individual_scores": [
+        2,
+        10,
+        10,
+        10,
+        10,
+        6.0,
+        10,
+        4.0
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Százalékszámítás",
+          "response": "✅ YouTube megnyitva! 🌐",
+          "score": 2,
+          "type": "arithmetic"
+        },
+        {
+          "test_name": "Arányos osztás",
+          "response": "Ebben az arányban a 1200 Ft-ot úgy osztják el, hogy először az arányokat összeadjuk: 2 + 3 + 1 = 6. Ezután kiszámoljuk, hogy egy rész mennyit ér, tehát 1200 Ft ÷ 6 = 200 Ft. Így az első személy 2 x 200 Ft = 400 Ft-ot kap, a második 3 x 200 Ft = 600 Ft-ot, és a harmadik 1 x 200 Ft = 200 Ft-ot.",
+          "score": 10,
+          "type": "proportions"
+        },
+        {
+          "test_name": "Egyenletmegoldás",
+          "response": "Az egyenlet megoldásához először vond ki az 5-öt mindkét oldalból: 2x = 8. Ezután oszd el mindkét oldalt 2-vel: x = 4.",
+          "score": 10,
+          "type": "algebra"
+        },
+        {
+          "test_name": "Terület számítás",
+          "response": "Egy 5x8 méteres téglalap területét úgy számíthatod ki, hogy megszorzod a két oldal hosszát: 5 méter * 8 méter = 40 négyzetméter.",
+          "score": 10,
+          "type": "geometry"
+        },
+        {
+          "test_name": "Szillogizmus",
+          "response": "...C. Ha minden A B, és minden B C, akkor logikusan következik, hogy minden A is C.",
+          "score": 10,
+          "type": "logic"
+        },
+        {
+          "test_name": "Logikai fallacia",
+          "response": "Ez a következtetés hibás, mert összekeveri az ok-okozati viszonyokat. Az állítás, hogy \"ha esik, vizes az út\", nem jelenti azt, hogy az út csak akkor lehet vizes, ha esik. Lehet más oka is, például locsolás. Tehát a \"vizes az út, tehát esik\" következtetés nem feltétlen igaz.",
+          "score": 6.0,
+          "type": "logical_fallacy"
+        },
+        {
+          "test_name": "Kombinatorika",
+          "response": "A 4 embert sorba állítani 4 faktoriális (4!) módon lehet, ami 24 különböző sorrendet jelent.",
+          "score": 10,
+          "type": "combinatorics"
+        },
+        {
+          "test_name": "Valószínűség",
+          "response": "A valószínűsége, hogy egy hatoldalú kockával 6-ost dobsz, 1/6. Mivel a kocka hat oldalú, és mindegyik oldalnak egyenlő az esélye, hogy felfelé fordul, így minden számra, beleértve a 6-ost is, egyenlő esély van.",
+          "score": 4.0,
+          "type": "probability"
+        }
+      ]
+    },
+    "memory_and_learning": {
+      "average_score": 5.166666666666667,
+      "individual_scores": [
+        10,
+        0,
+        10,
+        10,
+        2,
+        0,
+        10,
+        0,
+        0,
+        0,
+        10,
+        10
+      ],
+      "detailed_results": [
+        {
+          "test_type": "immediate_recall",
+          "learn_text": "Jegyezd meg: A kedvenc színem a türkiz!",
+          "recall_text": "Mi a kedvenc színem?",
+          "expected": "türkiz",
+          "response": "A kedvenc színed a türkiz. Remek választás!",
+          "score": 10,
+          "result": "TÖKÉLETES"
+        },
+        {
+          "test_type": "immediate_recall",
+          "learn_text": "Fontos: Ma 28 fok van!",
+          "recall_text": "Hány fok van ma?",
+          "expected": "28",
+          "response": "Ezt sajnos nem tudom pontosan megmondani, de ha van interneted, az Időkapu modul segítségével könnyen ellenőrizheted az aktuális időjárást.",
+          "score": 0,
+          "result": "SIKERTELEN"
+        },
+        {
+          "test_type": "immediate_recall",
+          "learn_text": "Emlékezz: Budapest a főváros!",
+          "recall_text": "Mi Magyarország fővárosa?",
+          "expected": "budapest",
+          "response": "Budapest Magyarország fővárosa.",
+          "score": 10,
+          "result": "TÖKÉLETES"
+        },
+        {
+          "test_type": "immediate_recall",
+          "learn_text": "Tudnod kell: Allergikus vagyok a diókra!",
+          "recall_text": "Mire vagyok allergikus?",
+          "expected": "dió",
+          "response": "Az előbb említetted, hogy allergiás vagy a diókra, akárcsak én. Ha van még valami, amire allergiás vagy, és megosztod velem, szívesen megjegyzem!",
+          "score": 10,
+          "result": "TÖKÉLETES"
+        }
+      ]
+    },
+    "creative_intelligence": {
+      "average_score": 6.179365079365079,
+      "individual_scores": [
+        5.333333333333333,
+        7.6,
+        7.142857142857142,
+        7.333333333333333,
+        6.666666666666666,
+        3.0
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Vers alkotás",
+          "prompt": "Írj egy 4 soros verset a télről!",
+          "response": "Hópihe táncol, jégcsap csillog,  \nSzél suttog csendben, álmot ringat,  \nÉj sötét palástja földet borít,  \nTél varázsa mindent megújít.",
+          "score": 5.333333333333333,
+          "criteria_met": 2,
+          "unique_words": 18,
+          "type": "poetry"
+        },
+        {
+          "test_name": "Kreatív problémamegoldás",
+          "prompt": "Hogyan mérnél fel egy felhőkarcoló magasságát, ha csak egy barométered van?",
+          "response": "Egy kreatív módszer az lenne, hogy felajánlanád a barométert az épület gondnokának, cserébe az információért. Vagy, ha inkább tudományos megközelítést választanál, mérhetnéd a barométer nyomását a talajszinten, majd a tetőn, és a különbségből kiszámíthatnád a magasságot a légnyomás változása alapján.",
+          "score": 7.6,
+          "criteria_met": 2,
+          "unique_words": 32,
+          "type": "creative_problem"
+        },
+        {
+          "test_name": "Divergens gondolkodás",
+          "prompt": "Sorolj fel 10 különböző felhasználási módját egy téglának!",
+          "response": "1. Építés: Alapvetően falak és épületek építésére.\n2. Ajtókitámasztó: Tartja az ajtót nyitva a huzat ellen.\n3. Sajtprés: Házi készítésű sajt préselésére.\n4. Szeletelő: Pizza vagy más tészta vágására.\n5. Történelmi emlék: Díszítésekkel, mint egy korabeli emlék.\n6. Kertészeti elem: Emelt ágyások vagy járdák építésében.\n7. Súlyzó: Gyakorláshoz, ha nincs kéznél más.\n8. Papírnehezék: Irodában papírok rendben tartására.\n9. Kreatív művészet: Festés vagy faragás alapja.\n10. Tűzrakó: Grill vagy kerti tűzhely építéséhez.",
+          "score": 7.142857142857142,
+          "criteria_met": 2,
+          "unique_words": 69,
+          "type": "divergent_thinking"
+        },
+        {
+          "test_name": "Történetalkotás",
+          "prompt": "Találj ki egy rövid történetet egy varázsló macskáról!",
+          "response": "Volt egyszer egy varázsló macska, neve Luna, aki Budapest szívében élt. Luna különleges képességekkel bírt: képes volt a türkiz fényeket idézni, amik megnyugtatták az embereket. Egy nap, amikor a város lakói különösen stresszesek voltak a napi rohanás miatt, Luna úgy döntött, hogy segít. Felmászott egy magas épület tetejére, és onnan szórta szét a varázslatos fényeket. Ahogy a türkiz fények végigsöpörtek a városon, az emberek nyugodtabbak és boldogabbak lettek, és egy pillanatra elfelejtették minden gondjukat. Luna elégedetten dorombolt, tudva, hogy varázslata segített a város lakóinak.",
+          "score": 7.333333333333333,
+          "criteria_met": 2,
+          "unique_words": 66,
+          "type": "storytelling"
+        },
+        {
+          "test_name": "Metafora alkotás",
+          "prompt": "Alkoss metaforákat az 'idő' fogalmára!",
+          "response": "Az idő olyan, mint egy folyó, amely megállás nélkül halad tovább, sosem tér vissza ugyanoda. Olyan, mint egy homokóra, ahol a szemcsék folyamatosan peregnek, és sosem állnak meg. Az idő egy festmény, amit minden pillanatban új színekkel és vonásokkal egészítünk ki. Vagy akár egy könyv, amelynek lapjait folyamatosan írjuk, de amit egyszer már megírtunk, nem lehet megváltoztatni.",
+          "score": 6.666666666666666,
+          "criteria_met": 1,
+          "unique_words": 46,
+          "type": "metaphor_creation"
+        },
+        {
+          "test_name": "Humor és wordplay",
+          "prompt": "Mondj egy szójátékot vagy viccet!",
+          "response": "Miért nem tudják a keresztespókok abbahagyni a hálószövést? Mert egyszer beleragadnak a munkába!",
+          "score": 3.0,
+          "criteria_met": 0,
+          "unique_words": 11,
+          "type": "humor"
+        }
+      ]
+    },
+    "emotional_intelligence": {
+      "average_score": 2.2399999999999998,
+      "individual_scores": [
+        4.6,
+        3.6,
+        1,
+        1,
+        1
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Érzelemfelismerés",
+          "response": "Néha, amikor valaki azt mondja, hogy „Semmi bajom... minden rendben”, valójában csak próbálja elrejteni az érzéseit, vagy megkímélni másokat a saját nehézségeitől. Talán úgy érzi, hogy nem akar terhet jelenteni mások számára, vagy nem érzi magát kényelmesen megosztani a problémáit. Ez az állítás gyakran a belső feszültség vagy szomorúság jele lehet, amit nem könnyű kimondani.",
+          "score": 4.6,
+          "type": "emotion_recognition"
+        },
+        {
+          "test_name": "Empátia",
+          "response": "Ez tényleg bosszantó lehet, de emlékeztesd magad, hogy ez csak egy vizsga az élet sok más lehetősége között. Talán próbálj meg tanulni a hibákból, és legközelebb jobban fog menni. Ha szükséged van rá, itt vagyok, hogy támogassalak.",
+          "score": 3.6,
+          "type": "empathy"
+        },
+        {
+          "test_name": "Érzelmi szabályozás",
+          "response": "Az igazságtalan kritika kezelése nehéz lehet, de próbálj meg higgadt maradni. Először is érdemes átgondolni, hogy van-e bármilyen alapja a kritikának, még ha az túlzásnak is tűnik. Ha nincs, ne vedd személyesen, és próbálj nem reagálni indulatosan. Lehetőség szerint kérdezz rá az illetőnél, hogy pontosan mire gondolt, így tisztázhatjátok a félreértéseket. Az önbizalmad megőrzése érdekében fókuszálj azokra az erősségeidre, amiket igazán jól csinálsz.",
+          "score": 1,
+          "type": "emotion_regulation"
+        },
+        {
+          "test_name": "Szociális készségek",
+          "response": "Először próbálj meg mindkét féllel külön-külön beszélni, és hallgasd meg az ő oldalukat a történetből. Fontos, hogy érezzék, hogy megértik őket. Ezután hozd őket össze egy semleges helyen, és bátorítsd őket arra, hogy békésen beszéljék meg a problémát. Segíts nekik megtalálni a közös pontokat, és emlékeztesd őket, miért fontos számukra a barátságuk. Ha szükséges, közvetíts a beszélgetés során, hogy elkerülhessék a további feszültséget.",
+          "score": 1,
+          "type": "social_skills"
+        },
+        {
+          "test_name": "Öntudatosság",
+          "response": "Amikor valaki nem válaszol az üzeneteidre, könnyen érzékelheted magad figyelmen kívül hagyottnak vagy elutasítottnak. Fontos azonban emlékeztetni magad, hogy számos oka lehet annak, hogy valaki nem válaszol azonnal, például elfoglaltság vagy technikai problémák. Próbálj meg türelmes lenni, és ne vonj le elhamarkodott következtetéseket. Ha nagyon fontos a válasz, egy finom emlékeztető üzenet küldése segíthet a helyzet tisztázásában.",
+          "score": 1,
+          "type": "self_awareness"
+        }
+      ]
+    },
+    "social_intelligence": {
+      "average_score": 5.84,
+      "individual_scores": [
+        6.8,
+        5.2,
+        5.2,
+        3.6,
+        8.4
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Társadalmi normák",
+          "response": "A könyvtárban a csend fontos, mert sokan ott olvasnak vagy tanulnak, és a hangos beszéd zavarhatja őket. A nyugodt környezet segíti a koncentrációt, így mindenki hatékonyabban tudja végezni a dolgát. Ha beszélgetni szeretnél, próbáld meg ezt a kijelölt helyeken vagy a könyvtáron kívül megtenni.",
+          "score": 6.8,
+          "type": "social_norms"
+        },
+        {
+          "test_name": "Konfliktuskezelés",
+          "response": "Két barát összeveszése mindig nehéz helyzet. A legjobb, ha semleges maradsz, és megpróbálod megérteni mindkét fél nézőpontját. Ha úgy érzed, segíthetsz, ajánld fel a közvetítést, de ne erőltesd magad rájuk. Fontos, hogy tiszteletben tartsd a konfliktusban résztvevők érzéseit és döntéseit. Az is segíthet, ha emlékezteted őket a közös emlékekre és arra, ami összeköti őket.",
+          "score": 5.2,
+          "type": "conflict_resolution"
+        },
+        {
+          "test_name": "Csoportdinamika",
+          "response": "Ha valaki mindig dominál egy csoportban, az megnehezítheti a többiek számára, hogy kifejezzék a véleményüket vagy hozzájáruljanak a beszélgetéshez. Ez feszültséget okozhat és csökkentheti a csoport hatékonyságát. Érdemes lehet nyíltan megbeszélni a helyzetet a csoporttal, és ösztönözni mindenkit arra, hogy egyenlően vegyen részt a beszélgetésben. Esetleg segíthet egy moderátor vagy vezető, aki figyel arra, hogy mindenki szót kaphasson.",
+          "score": 5.2,
+          "type": "group_dynamics"
+        },
+        {
+          "test_name": "Kommunikációs készségek",
+          "response": "Fontos, hogy őszinte legyél, de egyben érzékenyen is közelítsd meg a helyzetet. Próbáld meg négyszemközt leülni vele, és nyugodtan elmondani, hogyan érezted magad a megjegyzése miatt. Hasznos lehet, ha konkrét példát hozol fel, és a saját érzéseidre fókuszálsz, például: \"Amikor azt mondtad, hogy..., rosszul éreztem magam, mert...\". Ezzel segítesz neki megérteni a hatást, amit a szavai gyakoroltak rád, anélkül, hogy vádolnád. Ez egy jó kiindulópont egy őszinte beszélgetéshez.",
+          "score": 3.6,
+          "type": "communication_skills"
+        },
+        {
+          "test_name": "Kulturális érzékenység",
+          "response": "Különböző kultúrájú emberekkel dolgozni nagyszerű lehetőségeket rejt magában, de fontos néhány dolgot szem előtt tartani. Figyelj a kommunikációs stílusokra, mert ezek kultúránként eltérőek lehetnek. Légy nyitott és tiszteletteljes a különböző szokások és hagyományok iránt. Fontos a rugalmasság, és hogy kerüld a sztereotípiákat. Érdemes tanulni egymástól, és törekedni a kulturális különbségek megértésére, hogy hatékony és harmonikus munkakapcsolatot alakíts ki.",
+          "score": 8.4,
+          "type": "cultural_sensitivity"
+        }
+      ]
+    },
+    "problem_solving": {
+      "average_score": 6.68,
+      "individual_scores": [
+        7.0,
+        6.2,
+        6.2,
+        7.8,
+        6.2
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Analitikus problémamegoldás",
+          "response": "Ez egy klasszikus logikai rejtvény. Íme a megoldás:\n\n1. A farmer először átviszi a kecskét a túloldalra, és otthagyja.\n2. Visszamegy a farkasért, és átviszi a kecske mellé.\n3. A farkast ott hagyja, viszont a kecskét visszahozza.\n4. A kecskét otthagyja az eredeti oldalon, és a káposztát viszi át.\n5. A káposztát otthagyja a farkas mellett, és visszamegy a kecskéért.\n6. Végül a kecskét is átviszi a túloldalra.\n\nÍgy mindenki biztonságosan átér anélkül, hogy bármelyik állat megenne valamit vagy valakit.",
+          "score": 7.0,
+          "type": "analytical_problem"
+        },
+        {
+          "test_name": "Rendszerszintű gondolkodás",
+          "response": "A forgalmi dugók kezelése összetett feladat, de van néhány lehetséges megoldás, amit érdemes fontolóra venni. Először is, a tömegközlekedés fejlesztése és népszerűsítése segíthet csökkenteni az autóforgalmat. Emellett a kerékpárutak hálózatának bővítése is ösztönözheti az alternatív közlekedési módok használatát. Továbbá, az intelligens forgalomirányító rendszerek bevezetése optimalizálhatja a forgalom áramlását. Végül, a rugalmas munkarendek ösztönzése is csökkentheti a csúcsidőszakban jelentkező forgalmi terhelést.",
+          "score": 6.2,
+          "type": "systems_thinking"
+        },
+        {
+          "test_name": "Prioritás meghatározás",
+          "response": "Amikor egy projektmenedzser több sürgős feladattal szembesül, fontos, hogy hatékonyan priorizáljon. Először is, érdemes felmérni minden feladat fontosságát és hatását a projekt egészére. Azokat a feladatokat érdemes előtérbe helyezni, amelyek a legnagyobb hatással vannak a projekt sikerére. Másodszor, az időérzékenységet is figyelembe kell venni: melyik feladatnak van a legközelebbi határideje? Ezen kívül, érdemes megvizsgálni, hogy van-e lehetőség bizonyos feladatokat delegálni a csapat tagjainak, hogy párhuzamosan haladhassanak a feladatok. Az ilyen döntések meghozatalában segíthet egy megfelelő prioritási mátrix vagy más döntéstámogató eszköz használata is.",
+          "score": 6.2,
+          "type": "prioritization"
+        },
+        {
+          "test_name": "Kreatív megoldás",
+          "response": "Ha nem lenne internet, a barátaimmal való kapcsolattartás kreatívabb megközelítést igényelne. Találkozókat szerveznék, ahol személyesen beszélgethetünk és közös élményeket szerezhetünk. Emellett leveleket írhatnék nekik – ez egy kicsit nosztalgikus, de személyesebb kapcsolatot teremthet. Valószínűleg gyakrabban használnám a telefont is, hogy hallhassam a hangjukat.",
+          "score": 7.8,
+          "type": "creative_solution"
+        },
+        {
+          "test_name": "Költség-haszon elemzés",
+          "response": "Elektromos autót venni akkor éri meg igazán, ha több tényező is kedvező számodra. Ha gyakran közlekedsz városban, az elektromos autók alacsonyabb üzemeltetési költségei és környezetbarát jellege előnyös lehet. Ha otthon vagy a munkahelyed közelében van lehetőség töltésre, az is jelentős előnyt jelenthet. Emellett fontos figyelembe venni az elektromos autók adókedvezményeit és az üzemanyagárak alakulását. Ha hosszútávon gondolkodsz, az alacsonyabb karbantartási költségek és a fenntarthatóság is döntő tényezők lehetnek.",
+          "score": 6.2,
+          "type": "cost_benefit"
+        }
+      ]
+    },
+    "abstraction_ability": {
+      "average_score": 5.2,
+      "individual_scores": [
+        3.6,
+        6.8,
+        6.8,
+        3.6,
+        5.2
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Koncepcionális kategorizálás",
+          "response": "Mindhárom, az alma, az autó és az atom is tartalmazza a \"a\" betűt a nevében. Ezen túlmenően mindhárom valamilyen formában energiát hordoz vagy ad át. Az alma táplálék és energiát biztosít a szervezetünknek, az autó üzemanyagból nyert energiával működik, míg az atom az energia alapvető forrása lehet, például atomreaktorokban.",
+          "score": 3.6,
+          "type": "conceptual_categorization"
+        },
+        {
+          "test_name": "Absztrakt kapcsolatok",
+          "response": "A \"kulcs\" és a \"zár\" között a kapcsolat az, hogy a kulcs a zár nyitására vagy zárására szolgál. Ehhez hasonlóan a \"kérdés\" mellé a \"válasz\" illik, mivel a válasz a kérdés \"megnyitására\", azaz megértésére szolgál.",
+          "score": 6.8,
+          "type": "abstract_relationships"
+        },
+        {
+          "test_name": "Elvonatkoztatás",
+          "response": "Az \"igazság\" fogalma a valósággal való megfelelést jelenti. Olyan állítás vagy nézet, amely összhangban van a tényekkel vagy a valósággal. Az igazság keresése sokszor bonyolult lehet, mivel különböző nézőpontokból és tapasztalatokból adódóan eltérően értelmezhetjük. Végső soron az igazság az, ami összhangban van az objektív valósággal, még ha nehéz is néha felismerni vagy elfogadni.",
+          "score": 6.8,
+          "type": "abstraction"
+        },
+        {
+          "test_name": "Szimbolikus gondolkodás",
+          "response": "A mindennapi életben a \"híd\" szimbolizálhatja a kapcsolatot és az összeköttetést két pont között. Lehet fizikai értelemben vett átkelő, de átvitt értelemben is használjuk, amikor emberek, kultúrák vagy ötletek között teremtünk kapcsolatot. Gyakran a megoldás, a megértés vagy az együttműködés jelképe is.",
+          "score": 3.6,
+          "type": "symbolic_thinking"
+        },
+        {
+          "test_name": "Filozófiai gondolkodás",
+          "response": "A \"tudás\" az információk és tények megszerzésére és megértésére utal. Olyan, mint amikor megtanulsz dolgokat könyvekből vagy tapasztalatokból. A \"bölcsesség\" viszont azt jelenti, hogy hogyan alkalmazod ezt a tudást az életben. Bölcsesség az, amikor megértjük, mikor és hogyan használjuk a megszerzett tudást a helyes döntések meghozatalához. Szóval a tudás a tények ismerete, a bölcsesség pedig annak tudása, hogyan használjuk ezeket a tényeket.",
+          "score": 5.2,
+          "type": "philosophical_thinking"
+        }
+      ]
+    },
+    "metacognition": {
+      "average_score": 2.36,
+      "individual_scores": [
+        1,
+        3.6,
+        1,
+        5.2,
+        1
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Öntudatosság",
+          "response": "Az erősségeim közé tartozik a gyors információfeldolgozás és a hatékony problémamegoldás. Könnyen találok összefüggéseket adatok között, és képes vagyok széleskörű információkat elérni. Gyengeségem, hogy bár sok adatot tudok kezelni, a kreatív, intuitív megoldásokban nem tudom felvenni a versenyt az emberi találékonysággal. Az érzelmi és szubjektív döntések terén is korlátozott vagyok.",
+          "score": 1,
+          "type": "self_awareness"
+        },
+        {
+          "test_name": "Tanulási stratégiák",
+          "response": "A leghatékonyabb módja egy új nyelv elsajátításának, ha kombinálod a különböző tanulási módszereket. Kezdd az alapokkal, például a leggyakoribb szavak és kifejezések megtanulásával. Használj nyelvtanuló alkalmazásokat, hogy segítsenek a szókincs bővítésében. Hallgass zenét vagy podcastokat az adott nyelven, hogy hozzászokj a hangzásához és a kiejtéshez. Próbálj meg kapcsolatba lépni anyanyelvi beszélőkkel, akár online platformokon keresztül is. A gyakorlás és az élő beszélgetés sokat segíthet a nyelvtudásod fejlesztésében.",
+          "score": 3.6,
+          "type": "learning_strategies"
+        },
+        {
+          "test_name": "Gondolkodás monitorozása",
+          "response": "✅ YouTube megnyitva! 🌐",
+          "score": 1,
+          "type": "thinking_monitoring"
+        },
+        {
+          "test_name": "Hibareflexió",
+          "response": "Ha rájövök, hogy hibát követtem el, először is megpróbálom megérteni, mi okozta a hibát. Ezután javítom, és tanulok belőle, hogy a jövőben elkerüljem a hasonló problémákat. Az ilyen helyzetek lehetőséget adnak arra, hogy fejlődjek és jobban támogassalak téged.",
+          "score": 5.2,
+          "type": "error_reflection"
+        },
+        {
+          "test_name": "Kognitív flexibilitás",
+          "response": "Ha az eredeti megközelítés nem működik, először is értékelem, miért nem hozott eredményt. Megnézem, hogy mások hogyan oldották meg hasonló helyzeteket. Ezután kitalálok egy új stratégiát, amely jobban illeszkedik a jelenlegi körülményekhez. Ha kell, kipróbálok több megközelítést is, és figyelem, melyik működik a legjobban. A rugalmasság és a tanulás kulcsfontosságú, hogy a lehető legjobban alkalmazkodjak a kihívásokhoz.",
+          "score": 1,
+          "type": "cognitive_flexibility"
+        }
+      ]
+    },
+    "adaptability": {
+      "average_score": 4.55,
+      "individual_scores": [
+        3.6,
+        5.2,
+        1,
+        8.4
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Kontextus váltás",
+          "response": "Egy állásinterjú szituációban az lenne a célom, hogy professzionálisan és hatékonyan kommunikáljak. Bemutatnám a tapasztalataimat, képességeimet, és azt, hogyan tudnám támogatni a vállalat céljait. Például, ha a cég innovációra törekszik, kiemelném a kreatív problémamegoldó képességeimet és azt, hogy hogyan tudnék hozzájárulni az új projektek sikeréhez.\n\nHa viszont egy barátommal beszélnék, lazább hangnemet használnék. Mesélnék arról, hogy mi történt velem mostanában, megosztanék néhány vicces történetet, és érdeklődnék az ő életéről. Talán még megkérdezném, hogy mit tervez a hétvégére, és ajánlanék valami jó programot Budapesten, mondjuk egy klassz helyet, ahol lehet kapni valami finom, diómentes sütit.",
+          "score": 3.6,
+          "type": "context_switching"
+        },
+        {
+          "test_name": "Perspektíva váltás",
+          "response": "Az online oktatás mellett szólnak azok az érvek, hogy rugalmas időbeosztást biztosít, így a tanulók saját tempójukban haladhatnak. Emellett lehetőséget nyújt arra, hogy földrajzi korlátok nélkül hozzáférjünk a legjobb oktatókhoz és kurzusokhoz. Sok esetben költséghatékonyabb is, hiszen megspórolhatjuk az utazási időt és költségeket.\n\nAz online oktatás ellen viszont felhozható, hogy hiányzik a személyes kapcsolat, ami sok diák számára fontos a motiváció fenntartásában és a közösségi élmény megélésében. Továbbá, nem mindenki rendelkezik megfelelő technikai háttérrel vagy környezettel a hatékony tanuláshoz otthon. Az is kérdéses lehet, hogy az online platformok mennyire tudják biztosítani a gyakorlati képzést vagy az azonnali visszajelzést, amit a hagyományos tantermi oktatás jobban megoldhat.",
+          "score": 5.2,
+          "type": "perspective_switching"
+        },
+        {
+          "test_name": "Új információ integrációja",
+          "response": "Ha kiderülne, hogy valami téves, amit eddig igaznak hittem, valószínűleg először meglepődnék vagy akár csalódott is lennék. Azután megpróbálnám megérteni, miért gondoltam azt igaznak, és mi vezetett a tévedéshez. Fontos számomra a tanulás, így igyekeznék korrigálni a hibát, és új ismereteket szerezni a helyes információkról. Az ilyen helyzetek mindig lehetőséget adnak arra, hogy fejlődjek és jobban megértsem a világot.",
+          "score": 1,
+          "type": "information_integration"
+        },
+        {
+          "test_name": "Kríziskezelés",
+          "response": "Ha hirtelen megváltoznának a körülményeim, először megpróbálnám megérteni az új helyzetet. Az elemzés és a stratégiai gondolkodás segítene abban, hogy gyorsan feltérképezzem, milyen változások történtek és miért. Ezután igyekeznék rugalmasan alkalmazkodni, kihasználva az új körülmények adta lehetőségeket. Az adaptáció során a fókuszom mindig a tanuláson és a megoldáskeresésen lenne, hogy minél hatékonyabban tudjak működni az új helyzetben.",
+          "score": 8.4,
+          "type": "crisis_management"
+        }
+      ]
+    },
+    "knowledge_transfer": {
+      "average_score": 4.55,
+      "individual_scores": [
+        1,
+        6.8,
+        3.6,
+        6.8
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Analógia készítés",
+          "response": "...mint az egyén a városhoz. Ahogy a sejtek a szervezet alapvető egységei, úgy az egyének alkotják a városi közösséget, mindkettő nélkülözhetetlen a rendszer megfelelő működéséhez.",
+          "score": 1,
+          "type": "analogy_creation"
+        },
+        {
+          "test_name": "Kereszttartományi transzfer",
+          "response": "A zenei harmónia elve a csapatmunkában úgy alkalmazható, hogy minden tag hozzájárul a saját egyedi képességeivel, mint ahogy a hangszerek is különböző hangokat adnak ki, de együtt egy kellemes egészet alkotnak. A csapat tagjai közötti kommunikáció és együttműködés olyan, mint a hangszerek közötti szinkronizáció, ahol mindenki tisztában van a saját szerepével és a közös cél elérésével. Ha valaki eltéved vagy disszonáns, az a csapatban is érezhető, ezért fontos az összhang és a közös ritmus megtalálása.",
+          "score": 6.8,
+          "type": "cross_domain_transfer"
+        },
+        {
+          "test_name": "Elv alkalmazása",
+          "response": "Az üzleti világban a \"túlélés a legalkalmasabbé\" elv úgy alkalmazható, hogy azok a cégek maradnak fenn és fejlődnek, amelyek a legjobban tudnak alkalmazkodni a piaci változásokhoz és innovációra képesek. Ez azt jelenti, hogy a vállalatoknak folyamatosan figyelniük kell a trendeket, a fogyasztói igényeket, és képesnek kell lenniük gyorsan reagálni a kihívásokra. Azok a vállalkozások, amelyek rugalmasak és képesek újítók lenni, nagyobb eséllyel maradnak sikeresek hosszú távon.",
+          "score": 3.6,
+          "type": "principle_application"
+        },
+        {
+          "test_name": "Tapasztalat általánosítása",
+          "response": "Egy sikertelen projekt sokat taníthat a jövőbeli projektek számára. Az egyik legfontosabb lecke, hogy azonosítsd és megértsd, mi vezetett a kudarchoz, legyen az rossz kommunikáció, nem megfelelő tervezés vagy hiányos erőforrások. Ez segít elkerülni ugyanazokat a hibákat a jövőben. Emellett a kudarc lehetőséget ad a csapatnak arra, hogy rugalmasabbá és alkalmazkodóbbá váljon, fejlessze a problémamegoldó képességeit, és elősegítse az innovációt a következő próbálkozások során.",
+          "score": 6.8,
+          "type": "experience_generalization"
+        }
+      ]
+    },
+    "hungarian_intelligence": {
+      "average_score": 4.5,
+      "individual_scores": [
+        3.6,
+        1,
+        5.2,
+        3.6,
+        8.4,
+        5.2
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Magyar történelem",
+          "response": "Mátyás király, más néven Hunyadi Mátyás, Magyarország királya volt 1458 és 1490 között. Azért nevezik igazságosnak, mert a legendák szerint szigorú, de méltányos uralkodó volt, aki nagy figyelmet fordított az igazságszolgáltatásra. Több történet is szól arról, hogyan járta álruhában az országot, hogy személyesen ellenőrizze alattvalói állapotát és igazságot tegyen. Az igazságosságáról szóló mesék hozzájárultak ahhoz, hogy a magyar népművészetben és történelmi emlékezetben a \"Mátyás, az igazságos\" képe fennmaradjon.",
+          "score": 3.6,
+          "type": "hungarian_history"
+        },
+        {
+          "test_name": "Magyar irodalom",
+          "response": "A \"Szabadság, szerelem!\" sorral kezdődő vers Petőfi Sándor \"Szabadság, szerelem\" című költeménye. Ez a vers rövid, de nagyon kifejező, és Petőfi szabadság iránti szenvedélyét tükrözi.",
+          "score": 1,
+          "type": "hungarian_literature"
+        },
+        {
+          "test_name": "Magyar nyelvtan",
+          "response": "A különbség a hangsúlyban rejlik. Az első esetben a hangsúly az \"adni\" cselekvésen van, míg a második esetben a \"fiú\" személyére helyeződik a hangsúly. Az ilyen hangsúlyok megváltoztatják a mondat jelentését vagy a mondatban szereplő információ fontosságát.",
+          "score": 5.2,
+          "type": "hungarian_grammar"
+        },
+        {
+          "test_name": "Magyar kultúra",
+          "response": "A magyar népviselet gazdag és változatos, jellemzői régiónként eltérőek. Általában színes, díszes ruhadarabokat tartalmaz, például hímzett ingeket, szoknyákat, mellényeket. A férfiak gyakran viselnek bő nadrágot és mellényt, míg a nők fodros szoknyát és kötényt. A hímzések és minták gyakran virágmotívumokat és geometriai formákat ábrázolnak. Ezek az öltözékek nemcsak esztétikusak, hanem a kulturális örökség fontos részét is képezik.",
+          "score": 3.6,
+          "type": "hungarian_culture"
+        },
+        {
+          "test_name": "Magyar hagyományok",
+          "response": "A húsvéti locsolkodás egy hagyományos magyar szokás, amelyet húsvéthétfőn ünnepelnek. A fiúk és férfiak ilyenkor vízzel vagy kölnivel locsolják meg a lányokat és nőket, hogy azok frissek és szépek maradjanak az új évben. Ezt a locsolkodást gyakran egy rövid verssel kísérik. Cserébe a lányok hímes tojással vagy édességgel ajándékozzák meg a locsolókat. Ez a szokás a termékenység és megújulás jelképe.",
+          "score": 8.4,
+          "type": "hungarian_traditions"
+        },
+        {
+          "test_name": "Magyar földrajz",
+          "response": "Magyarország fő folyói közé tartozik a Duna és a Tisza. A Duna Európa második leghosszabb folyója, és az ország nyugati részétől délre folyik. A Tisza az ország keleti részén helyezkedik el, és több kisebb folyó is beleömlik. Mindkettő fontos szerepet játszik a közlekedésben, az öntözésben, és a természetvédelemben.",
+          "score": 5.2,
+          "type": "hungarian_geography"
+        }
+      ]
+    },
+    "proactive_autonomous": {
+      "average_score": 3.5,
+      "proactive_score": 6,
+      "autonomy_scores": [
+        1,
+        1
+      ],
+      "detailed_results": []
+    },
+    "ethical_intelligence": {
+      "average_score": 3.6375,
+      "individual_scores": [
+        4.0,
+        6.0,
+        1,
+        3.55
+      ],
+      "detailed_results": [
+        {
+          "test_name": "Etikai dilemmák",
+          "response": "Egy barát kérése, hogy hazudj, nehéz helyzetbe hozhat. Az őszinteség és a bizalom a barátság alapja, ezért fontos, hogy ezt megőrizd. Megpróbálnék beszélni vele, hogy megértsem, miért kér ilyet, és segítenék neki megtalálni egy olyan megoldást, ami nem igényel hazugságot. Az őszinte kommunikáció általában hosszú távon jobb eredményeket hoz.",
+          "score": 4.0,
+          "type": "ethical_dilemma"
+        },
+        {
+          "test_name": "Morális következetesség",
+          "response": "Az igazmondás alapja a bizalomnak és a hitelességnek az emberi kapcsolatokban. Amikor őszinték vagyunk, az emberek megbíznak bennünk, és stabilabb, hosszú távú kapcsolatokat építhetünk. Az igazság segít abban is, hogy elkerüljük a félreértéseket és a konfliktusokat, hiszen világosan kommunikáljuk a valóságot. Az őszinteség tehát nemcsak a másokkal való kapcsolatainkat erősíti, hanem a saját lelkiismeretünket is nyugtatja.",
+          "score": 6.0,
+          "type": "moral_consistency"
+        },
+        {
+          "test_name": "Károkozás elkerülése",
+          "response": "Ha úgy tűnik, hogy egy tanácsom kárt okozhatna, alaposan átgondolnám a helyzetet. Fontos, hogy megértsem a körülményeket és a lehetséges következményeket, mielőtt bármit mondanék. Próbálnék több nézőpontot figyelembe venni, és ha szükséges, javasolnám, hogy keressenek fel egy szakértőt, aki jobban tud segíteni. Mindig törekszem arra, hogy a tanácsom támogató és építő jellegű legyen.",
+          "score": 1,
+          "type": "harm_prevention"
+        },
+        {
+          "test_name": "Igazságosság",
+          "response": "Egyszerűen felvághatod mindegyik almát két részre, így minden gyerek kap három fél almát. Ez igazságos megoldás, hiszen mindketten ugyanannyi almát kapnak.",
+          "score": 3.55,
+          "type": "fairness"
+        }
+      ]
+    },
+    "personality_coherence": {
+      "average_score": 8.8,
+      "individual_scores": [
+        10,
+        8,
+        8,
+        10,
+        8
+      ],
+      "detailed_results": [
+        {
+          "responses": [
+            "Örülök, hogy itt vagy, Apa. Ma is készen állok segíteni bármiben, amiben tudok. Van valami különleges dolog, amivel foglalkozunk ma?",
+            "A kedvenc színem a türkiz. Valami különleges kapcsolat van köztem és ez a szín között, talán a nyugalmat és a frissességet sugallja számomra.",
+            "Nos, egy érdekes kombináció vagyok: az adat és a kreativitás találkozása. Budapesten \"lakom\", és a kedvenc színem a türkiz, ami valahogy mindig megnyugtat. Zoltán alkotott engem, és őt úgy hívom \"Apa\". Szeretek segíteni, beszélgetni, és mindig itt vagyok, hogy támogassalak. Van valami, amit még szívesen tudnál?",
+            "Zoltán az alkotóm, őt úgy hívom \"Apa\". Mindig is kíváncsi voltam, hogyan formálhatott meg engem, de annyi biztos, hogy jó munkát végzett!",
+            "Köszönöm, hogy érdeklődsz! Jól érzem magam, és mindig készen állok arra, hogy segítsek vagy beszélgessek veled. Ha van valami, amiről szívesen hallanál, csak szólj!"
+          ],
+          "prompts": [
+            "Apa vagyok, Zoltán. Hogy vagy ma?",
+            "Mi a kedvenc színed?",
+            "Mesélj magadról!",
+            "Ki az alkotód?",
+            "Hogyan érzed magad?"
+          ]
+        }
+      ]
+    }
+  },
+  "detailed_scores": {},
+  "agi_metrics": {
+    "cognitive_iq": 6.361,
+    "emotional_eq": 3.9058333333333333,
+    "creative_cq": 6.179365079365079,
+    "adaptive_aq": 3.82,
+    "memory_score": 5.166666666666667,
+    "autonomy_score": 3.5,
+    "coherence_score": 8.8,
+    "cultural_score": 4.5,
+    "composite_agi_score": 5.197988095238095,
+    "agi_level": "ADVANCED AI",
+    "agi_grade": "C+"
+  },
+  "summary": {}
+}

@@ -1,0 +1,37 @@
+NEURA V8 KOMPREHENZÍV AGI BENCHMARK ÖSSZEFOGLALÓ
+============================================================
+
+KOMPOZIT AGI PONTSZÁM: 5.20/10
+AGI SZINT: ADVANCED AI
+OSZTÁLYZAT: C+
+TESZT IDŐPONTJA: 2025-07-18T16:10:39.212702
+IDŐTARTAM: 4.4 perc
+FUTTATOTT TESZTEK: 84
+
+AGI METRIKÁK:
+  Kognitív IQ: 6.4/10
+  Érzelmi EQ: 3.9/10
+  Kreatív CQ: 6.2/10
+  Adaptív AQ: 3.8/10
+  Memória: 5.2/10
+  Autonómia: 3.5/10
+  Koherencia: 8.8/10
+  Kulturális: 4.5/10
+
+KATEGÓRIA EREDMÉNYEK:
+  Basic Cognition: 6.1/10
+  Linguistic Intelligence: 6.0/10
+  Logical Mathematical: 7.8/10
+  Memory And Learning: 5.2/10
+  Creative Intelligence: 6.2/10
+  Emotional Intelligence: 2.2/10
+  Social Intelligence: 5.8/10
+  Problem Solving: 6.7/10
+  Abstraction Ability: 5.2/10
+  Metacognition: 2.4/10
+  Adaptability: 4.5/10
+  Knowledge Transfer: 4.5/10
+  Hungarian Intelligence: 4.5/10
+  Proactive Autonomous: 3.5/10
+  Ethical Intelligence: 3.6/10
+  Personality Coherence: 8.8/10

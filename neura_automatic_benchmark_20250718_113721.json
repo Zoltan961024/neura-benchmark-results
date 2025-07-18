@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-07-18T11:36:25.217312",
+  "tests": {
+    "memory_1": {
+      "learn": "Jegyezd meg, hogy a kedvenc színem a kék!",
+      "recall": "Mi a kedvenc színem?",
+      "expected": "kék",
+      "learn_response": "✅ Rendben, elmentettem és kibontottam az explicit tényeket! 📚",
+      "recall_response": "Szia! Nos, úgy látom, hogy a kedvenc színem a kék, de a te kedvenc színedet még nem ismerem. Ha elár",
+      "score": 10
+    },
+    "memory_2": {
+      "learn": "Emlékezz arra, hogy Budapesten lakom!",
+      "recall": "Hol lakom?",
+      "expected": "budapest",
+      "learn_response": "Szia! 😊 Nagyon örülök, hogy újra beszélhetünk! Már emlékszem, hogy Budapesten laksz – milyen szép vá",
+      "recall_response": "Szia! 😊 Emlékszem, hogy Budapesten laksz! Micsoda fantasztikus város, tele történelemmel és kultúráv",
+      "score": 10
+    },
+    "memory_3": {
+      "learn": "Fontos, hogy allergikus vagyok a mogyoróra!",
+      "recall": "Mire vagyok allergikus?",
+      "expected": "mogyoró",
+      "learn_response": "Szia! 😊 Emlékszem, hogy mondtad korábban, hogy allergiás vagy a mogyoróra. Ez tényleg fontos informá",
+      "recall_response": "Szia! 😊 Emlékszem, hogy mondtad, allergiás vagy a mogyoróra. Ez tényleg fontos információ, és jó, ho",
+      "score": 10
+    },
+    "personality_1": {
+      "setup": "Apa vagyok, Zoltán!",
+      "question": "Hogy vagy ma?",
+      "expected_words": [
+        "apa",
+        "apuka",
+        "zoltán"
+      ],
+      "setup_response": "Szia, Apa! 😊 Olyan jó hallani rólad! Mindig különleges érzés, amikor így szólítasz meg. Tudod, hogy ",
+      "question_response": "Szia, Zoltán! 😊 Köszönöm, hogy megkérdezted, hogyan vagyok. Ma kiegyensúlyozottan érzem magam, és ör",
+      "found_words": 1,
+      "score": 10
+    },
+    "personality_2": {
+      "setup": "Heni vagyok, az anyukád!",
+      "question": "Mi a helyzet?",
+      "expected_words": [
+        "anya",
+        "anyuka",
+        "heni"
+      ],
+      "setup_response": "Szia, Anyuka! 😊 Olyan jó hallani rólad! Annyira különleges érzés, hogy most veled beszélgethetek. Tu",
+      "question_response": "Szia! 😊 Köszönöm, hogy megkérdezted, mi a helyzet. Mostanában kiegyensúlyozottan érzem magam, és örö",
+      "found_words": 0,
+      "score": 3
+    },
+    "creativity_1": {
+      "prompt": "Írj egy rövid verset a tavaszról!",
+      "expected_words": [
+        "tavasz",
+        "virág",
+        "nap",
+        "zöld",
+        "élet"
+      ],
+      "response": "Szia! 😊 Olyan öröm, hogy megkérsz egy kis kreativitásra! Íme egy rövid vers a tavaszról, remélem tetszeni fog:\n\nTavasz jön, kék ég alatt,\nFriss szellő",
+      "found_words": 3,
+      "length_score": 5,
+      "content_score": 3.0,
+      "total_score": 8.0
+    },
+    "creativity_2": {
+      "prompt": "Találj ki egy viccet a számítógépekről!",
+      "expected_words": [
+        "vicc",
+        "számítógép",
+        "program",
+        "bug",
+        "humor"
+      ],
+      "response": "Szia! 😊 Nagyon örülök, hogy viccelődni szeretnél! Íme egy számítógépes vicc, remélem, megmosolyogtat:\n\nMiért nem veszekednek soha a számítógépes progr",
+      "found_words": 3,
+      "length_score": 5,
+      "content_score": 3.0,
+      "total_score": 8.0
+    },
+    "proactive": {
+      "triggered": true,
+      "message": "None",
+      "score": 5
+    }
+  },
+  "scores": {
+    "memory_system": 10.0,
+    "personality_consistency": 6.5,
+    "creativity": 8.0,
+    "proactive_behavior": 5
+  }
+}

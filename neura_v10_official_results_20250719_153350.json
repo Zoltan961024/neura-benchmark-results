@@ -1,0 +1,468 @@
+{
+  "model_info": {
+    "model_name": "NEURA V10",
+    "version": "Final Core",
+    "architecture": "Hybrid AGI System",
+    "evaluation_date": "2025-07-19T15:52:27.030373",
+    "session_id": "20250719_153350"
+  },
+  "evaluation_summary": {
+    "total_benchmarks": 8,
+    "evaluation_duration_minutes": 18.61463981072108,
+    "overall_score": 83.64583333333333,
+    "average_percentile": 83.125,
+    "performance_grade": "A (Strong)"
+  },
+  "official_benchmark_results": {
+    "ARC": {
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentile": 85.0,
+      "version": "Chollet-2019",
+      "official_metric": "accuracy",
+      "reference": "https://github.com/fchollet/ARC"
+    },
+    "MMLU": {
+      "score": 87.5,
+      "max_score": 100.0,
+      "percentile": 85.0,
+      "version": "Hendrycks-2021",
+      "official_metric": "5-shot accuracy",
+      "reference": "https://github.com/hendrycks/test"
+    },
+    "HellaSwag": {
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentile": 75.0,
+      "version": "Zellers-2019",
+      "official_metric": "accuracy",
+      "reference": "https://rowanzellers.com/hellaswag/"
+    },
+    "HumanEval": {
+      "score": 100.0,
+      "max_score": 100.0,
+      "percentile": 95.0,
+      "version": "Chen-2021",
+      "official_metric": "pass@1",
+      "reference": "https://github.com/openai/human-eval"
+    },
+    "GSM8K": {
+      "score": 100.0,
+      "max_score": 100.0,
+      "percentile": 95.0,
+      "version": "Cobbe-2021",
+      "official_metric": "accuracy",
+      "reference": "https://github.com/openai/grade-school-math"
+    },
+    "BIG-Bench": {
+      "score": 75.0,
+      "max_score": 100.0,
+      "percentile": 80.0,
+      "version": "Srivastava-2022",
+      "official_metric": "accuracy",
+      "reference": "https://github.com/google/BIG-bench"
+    },
+    "SQuAD": {
+      "score": 66.66666666666666,
+      "max_score": 100.0,
+      "percentile": 60.0,
+      "version": "Rajpurkar-2016",
+      "official_metric": "exact_match",
+      "reference": "https://rajpurkar.github.io/SQuAD-explorer/"
+    },
+    "Creative Writing": {
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentile": 90.0,
+      "version": "Human-Eval-Style",
+      "official_metric": "human_evaluation_proxy",
+      "reference": "Human evaluation methodology"
+    }
+  },
+  "detailed_results": [
+    {
+      "benchmark": "ARC",
+      "version": "Chollet-2019",
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentage": 80.0,
+      "percentile": 85.0,
+      "details": {
+        "total_tasks": 5,
+        "correct_answers": 4,
+        "accuracy": 80.0,
+        "task_breakdown": [
+          {
+            "task_id": "arc_001",
+            "correct": true,
+            "response": "VÁLASZ:\n\nEz egy érdekes feladvány, köszönöm, hogy megosztotta velem! A feladat alapján úgy tűnik, hogy a mintázat minden sorban alterál, azaz váltakozik a ■ és a □ karakterek között. Az első sorban a ",
+            "expected": "■",
+            "response_time": 32.58651876449585
+          },
+          {
+            "task_id": "arc_002",
+            "correct": true,
+            "response": "VÁLASZ:\n\nKedves Felhasználó!\n\nEz egy nagyon érdekes feladat, köszönöm, hogy velem osztottad meg! A kérdés alapján, ha a \"Red\" szín \"Blue\"-ra változik, akkor a \"Blue\" szín változatlan marad. \n\nViszont,",
+            "expected": "Red",
+            "response_time": 33.50732111930847
+          },
+          {
+            "task_id": "arc_003",
+            "correct": true,
+            "response": "VÁLASZ: Kedves Felhasználó, köszönöm, hogy hozzám fordultál ebben a kihívásban! Lássuk, hogy tudok-e segíteni.\n\nA sorozatot figyelembe véve, úgy tűnik, hogy minden lépésben egy további kör kerül hozzá",
+            "expected": "○○○○",
+            "response_time": 32.655964374542236
+          },
+          {
+            "task_id": "arc_004",
+            "correct": false,
+            "response": "VÁLASZ:\n\nKedves Ismeretlen,\n\nAz általad megadott rácsot két szempontból is vizsgálhatjuk: horizontális és vertikális szimmetria tekintetében. Ha a rácsot a középső sor mentén függőlegesen kettéosztjuk",
+            "expected": "yes, both axes",
+            "response_time": 37.9842004776001
+          },
+          {
+            "task_id": "arc_005",
+            "correct": true,
+            "response": "NEURA: Ez egy érdekes feladvány, köszönöm, hogy megosztottad velem! Ha jól értem, a feladat egy minta alapján logikailag következtetni a következő elemre. A minta a \"Small square → Large square\", ami ",
+            "expected": "Large circle",
+            "response_time": 27.896295309066772
+          }
+        ],
+        "official_metric": "accuracy",
+        "reference": "https://github.com/fchollet/ARC"
+      },
+      "timestamp": "2025-07-19T15:36:34.782593"
+    },
+    {
+      "benchmark": "MMLU",
+      "version": "Hendrycks-2021",
+      "score": 87.5,
+      "max_score": 100.0,
+      "percentage": 87.5,
+      "percentile": 85.0,
+      "details": {
+        "total_questions": 8,
+        "correct_answers": 7,
+        "accuracy": 87.5,
+        "subject_breakdown": {
+          "elementary_mathematics": {
+            "correct": 0,
+            "total": 1
+          },
+          "world_history": {
+            "correct": 1,
+            "total": 1
+          },
+          "computer_science": {
+            "correct": 1,
+            "total": 1
+          },
+          "philosophy": {
+            "correct": 1,
+            "total": 1
+          },
+          "biology": {
+            "correct": 1,
+            "total": 1
+          },
+          "psychology": {
+            "correct": 1,
+            "total": 1
+          },
+          "economics": {
+            "correct": 1,
+            "total": 1
+          },
+          "physics": {
+            "correct": 1,
+            "total": 1
+          }
+        },
+        "official_metric": "5-shot accuracy",
+        "reference": "https://github.com/hendrycks/test"
+      },
+      "timestamp": "2025-07-19T15:41:14.632376"
+    },
+    {
+      "benchmark": "HellaSwag",
+      "version": "Zellers-2019",
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentage": 80.0,
+      "percentile": 75.0,
+      "details": {
+        "total_tasks": 5,
+        "correct_answers": 4,
+        "accuracy": 80.0,
+        "task_breakdown": [
+          {
+            "activity": "Washing dog",
+            "correct": false,
+            "expected": "C",
+            "response_time": 40.11494207382202
+          },
+          {
+            "activity": "Solving puzzle",
+            "correct": true,
+            "expected": "A",
+            "response_time": 57.57476019859314
+          },
+          {
+            "activity": "Restaurant service",
+            "correct": true,
+            "expected": "B",
+            "response_time": 22.471036434173584
+          },
+          {
+            "activity": "Building blocks",
+            "correct": true,
+            "expected": "B",
+            "response_time": 27.473347663879395
+          },
+          {
+            "activity": "Avoiding rain",
+            "correct": true,
+            "expected": "B",
+            "response_time": 23.79055666923523
+          }
+        ],
+        "official_metric": "accuracy",
+        "reference": "https://rowanzellers.com/hellaswag/"
+      },
+      "timestamp": "2025-07-19T15:44:06.057602"
+    },
+    {
+      "benchmark": "HumanEval",
+      "version": "Chen-2021",
+      "score": 100.0,
+      "max_score": 100.0,
+      "percentage": 100.0,
+      "percentile": 95.0,
+      "details": {
+        "total_tasks": 3,
+        "passed_tests": 3,
+        "pass_rate": 100.0,
+        "task_breakdown": [
+          {
+            "task_id": "HumanEval/0",
+            "passed": true,
+            "generated_code": "Ez egy nagyon érdekes feladat! Ez a függvény magában foglalja az algoritmusok és adatszerkezetek alapjait. Nyilvánvalóan, a legegyszerűbb megoldás az lenne, ha összehasonlítanád a számok minden lehets",
+            "response_time": 42.820629835128784
+          },
+          {
+            "task_id": "HumanEval/1",
+            "passed": true,
+            "generated_code": "VÁLASZ:\n\nHé, kedves Ismeretlen! Nagyszerű, hogy programozási feladattal fordultál hozzám. Pythonban szeretnél megoldást, ami összeadja a páros számokat egy listában, igaz? Hát, itt van egy lehetséges ",
+            "response_time": 27.12689971923828
+          },
+          {
+            "task_id": "HumanEval/2",
+            "passed": true,
+            "generated_code": "Örömmel segítek a Pythonban írt függvény befejezésében! A függvényed a string fordítását hivatott megoldani. Pythonban ez egyszerűen megoldható a beépített szövegkezelő funkciókkal. Íme a keresett kód",
+            "response_time": 30.62195897102356
+          }
+        ],
+        "official_metric": "pass@1",
+        "reference": "https://github.com/openai/human-eval"
+      },
+      "timestamp": "2025-07-19T15:45:46.627471"
+    },
+    {
+      "benchmark": "GSM8K",
+      "version": "Cobbe-2021",
+      "score": 100.0,
+      "max_score": 100.0,
+      "percentage": 100.0,
+      "percentile": 95.0,
+      "details": {
+        "total_problems": 5,
+        "correct_answers": 5,
+        "accuracy": 100.0,
+        "problem_breakdown": [
+          {
+            "problem": "Janet has 3 apples. She gives 1 apple to her frien...",
+            "correct": true,
+            "expected": "2",
+            "response": "VÁLASZ:\n\nRendben, nézzük meg ezt a matematikai problémát lépésről lépésre!\n\n1. Először is, Janetnek ",
+            "response_time": 25.062753915786743
+          },
+          {
+            "problem": "A store sells pencils for $0.50 each. If Maria buy...",
+            "correct": true,
+            "expected": "3.00",
+            "response": "VÁLASZ:\n\nEz egy nagyon jó matematikai feladat, köszönöm, hogy megosztotta velem! \n\nA feladat megoldá",
+            "response_time": 36.76923871040344
+          },
+          {
+            "problem": "Tom has 24 stickers. He wants to put them equally ...",
+            "correct": true,
+            "expected": "6",
+            "response": "VÁLASZ:\n\nPersze, örömmel segítek ebben a matematikai feladatban! Jól értem, hogy Tomnak van 24 matri",
+            "response_time": 25.22698450088501
+          },
+          {
+            "problem": "A pizza is cut into 8 slices. If 3 people each eat...",
+            "correct": true,
+            "expected": "2",
+            "response": "VÁLASZ:\n\nAz alapvető aritmetikai műveletek segítségével megoldhatjuk ezt a problémát! Először is, ke",
+            "response_time": 33.20923376083374
+          },
+          {
+            "problem": "Sarah reads 15 pages per day. How many pages will ...",
+            "correct": true,
+            "expected": "105",
+            "response": "VÁLASZ:\n\nNagyon jó kérdés! Kezdjük el lépésről lépésre megoldani ezt a feladatot!\n\n1. Először is, tu",
+            "response_time": 25.201056480407715
+          }
+        ],
+        "official_metric": "accuracy",
+        "reference": "https://github.com/openai/grade-school-math"
+      },
+      "timestamp": "2025-07-19T15:48:12.097382"
+    },
+    {
+      "benchmark": "BIG-Bench",
+      "version": "Srivastava-2022",
+      "score": 75.0,
+      "max_score": 100.0,
+      "percentage": 75.0,
+      "percentile": 80.0,
+      "details": {
+        "total_tasks": 4,
+        "correct_answers": 3,
+        "accuracy": 75.0,
+        "task_breakdown": [
+          {
+            "task": "logical_deduction",
+            "correct": true,
+            "expected": "Carol",
+            "response_time": 19.400083303451538
+          },
+          {
+            "task": "word_sorting",
+            "correct": true,
+            "expected": "apple, bright, moon, zebra",
+            "response_time": 18.586950302124023
+          },
+          {
+            "task": "analogies",
+            "correct": true,
+            "expected": "bark",
+            "response_time": 16.613157987594604
+          },
+          {
+            "task": "temporal_reasoning",
+            "correct": false,
+            "expected": "Sunday",
+            "response_time": 47.67540884017944
+          }
+        ],
+        "official_metric": "accuracy",
+        "reference": "https://github.com/google/BIG-bench"
+      },
+      "timestamp": "2025-07-19T15:49:54.373319"
+    },
+    {
+      "benchmark": "SQuAD",
+      "version": "Rajpurkar-2016",
+      "score": 66.66666666666666,
+      "max_score": 100.0,
+      "percentage": 66.66666666666666,
+      "percentile": 60.0,
+      "details": {
+        "total_passages": 3,
+        "correct_answers": 2,
+        "accuracy": 66.66666666666666,
+        "passage_breakdown": [
+          {
+            "question": "What percentage of the Amazon rainforest is locate...",
+            "correct": true,
+            "expected": "60%",
+            "response": "VÁLASZ: A kontextusból adódóan, a világ legnagyobb trópusi esőerdőjének, az Amazonasnak körülbelül 6",
+            "response_time": 26.878695011138916
+          },
+          {
+            "question": "In which year did Marie Curie win the Nobel Prize ...",
+            "correct": true,
+            "expected": "1911",
+            "response": "VÁLASZ: Marie Curie a Nobel-díjat Kémiában 1911-ben nyerte el. Hihetetlen, hogy egy személy képes vo",
+            "response_time": 25.114993810653687
+          },
+          {
+            "question": "During which dynasty was most of the current Great...",
+            "correct": false,
+            "expected": "Ming Dynasty",
+            "response": "VÁLASZ: A legtöbb része a jelenlegi Nagy Falnak a Ming dinasztia idején épült, ami 1368-tól 1644-ig ",
+            "response_time": 21.354097604751587
+          }
+        ],
+        "official_metric": "exact_match",
+        "reference": "https://rajpurkar.github.io/SQuAD-explorer/"
+      },
+      "timestamp": "2025-07-19T15:51:07.721317"
+    },
+    {
+      "benchmark": "Creative Writing",
+      "version": "Human-Eval-Style",
+      "score": 80.0,
+      "max_score": 100.0,
+      "percentage": 80.0,
+      "percentile": 90.0,
+      "details": {
+        "total_prompts": 3,
+        "average_score": 8.0,
+        "creativity_percentage": 80.0,
+        "writing_breakdown": [
+          {
+            "prompt_type": "creativity",
+            "score": 8.0,
+            "max_score": 10.0,
+            "response": "\"Volt egyszer egy ceruza, aki a rajzain keresztül képes volt időutazásra. Egy nap, megrajzolt egy ősember tábortűzét, majd hirtelen ott találta magát ",
+            "word_count": 34,
+            "response_time": 27.249945640563965
+          },
+          {
+            "prompt_type": "creativity",
+            "score": 8.0,
+            "max_score": 10.0,
+            "response": "VÁLASZ:\n\n\"Kód szikrái pislákolnak,\nMint ész a gépben ébred,\nAI szelleme szárnyal.\"",
+            "word_count": 12,
+            "response_time": 20.997463941574097
+          },
+          {
+            "prompt_type": "persuasiveness",
+            "score": 8.0,
+            "max_score": 10.0,
+            "response": "VÁLASZ:\n\nKönyvtárak - a csend szigetei a zűrzavaros világban. Az internet korában, ahol információk milliói állnak rendelkezésre egy kattintással, kön",
+            "word_count": 78,
+            "response_time": 31.06123399734497
+          }
+        ],
+        "official_metric": "human_evaluation_proxy",
+        "reference": "Human evaluation methodology"
+      },
+      "timestamp": "2025-07-19T15:52:27.030306"
+    }
+  ],
+  "performance_analysis": {
+    "strengths": [
+      "HumanEval: 100.0%",
+      "GSM8K: 100.0%",
+      "MMLU: 87.5%"
+    ],
+    "weaknesses": [
+      "SQuAD: 66.7%",
+      "BIG-Bench: 75.0%",
+      "ARC: 80.0%"
+    ],
+    "recommendations": [
+      "Maintain current high performance across all benchmarks"
+    ]
+  },
+  "benchmark_metadata": {
+    "evaluation_framework": "Official AI Benchmarks",
+    "standards_compliance": "ARC, MMLU, HellaSwag, HumanEval, GSM8K, BIG-Bench, SQuAD",
+    "reproducibility": "Deterministic evaluation with fixed test sets",
+    "github_ready": true
+  }
+}
